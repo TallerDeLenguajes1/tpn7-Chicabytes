@@ -124,6 +124,7 @@ namespace Calculadora
                 Calculo.numero2 = Convert.ToSingle(ArreText[1]);
                 TB.Text = Calculo.Division().ToString();
             }
+
         }
 
         private void Clear_Click(object sender, EventArgs e)
