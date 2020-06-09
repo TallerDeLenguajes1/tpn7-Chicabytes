@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\giuli\\.nuget\\packages\\": {}
+    "C:\\Users\\Ridex\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\giuli\\Source\\Repos\\TallerDeLenguajes1\\tpn7-Chicabytes\\Calculadora\\Calculadora\\Calculadora.csproj",
+      "projectUniqueName": "C:\\Users\\Ridex\\Documents\\GitHub\\tpn7-Chicabytes\\Calculadora\\Calculadora\\Calculadora.csproj",
       "projectName": "Calculadora",
-      "projectPath": "C:\\Users\\giuli\\Source\\Repos\\TallerDeLenguajes1\\tpn7-Chicabytes\\Calculadora\\Calculadora\\Calculadora.csproj",
-      "packagesPath": "C:\\Users\\giuli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\giuli\\Source\\Repos\\TallerDeLenguajes1\\tpn7-Chicabytes\\Calculadora\\Calculadora\\obj\\",
+      "projectPath": "C:\\Users\\Ridex\\Documents\\GitHub\\tpn7-Chicabytes\\Calculadora\\Calculadora\\Calculadora.csproj",
+      "packagesPath": "C:\\Users\\Ridex\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ridex\\Documents\\GitHub\\tpn7-Chicabytes\\Calculadora\\Calculadora\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\giuli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ridex\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

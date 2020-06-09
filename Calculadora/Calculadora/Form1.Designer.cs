@@ -204,6 +204,7 @@
             this.equal.Text = "=";
             this.equal.UseVisualStyleBackColor = true;
             this.equal.Click += new System.EventHandler(this.equal_Click);
+            this.equal.Enter += new System.EventHandler(this.equal_Click);
             // 
             // dot
             // 

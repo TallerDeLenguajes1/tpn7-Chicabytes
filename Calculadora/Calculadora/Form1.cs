@@ -27,11 +27,7 @@ namespace Calculadora
             TB.Text += ".";
         }
 
-        private void equal_Click(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void slash_Click(object sender, EventArgs e)
         {
             TB.Text += "/";
@@ -96,10 +92,43 @@ namespace Calculadora
         {
             TB.Text += "9";
         }
+         private void equal_Click(object sender, EventArgs e)
+         {
+            string TextoCompleto = TB.Text;
+            Calculadora Calculo = new Calculadora();
+            if (TB.Text.Contains('+'))
+            {
+                string[] ArreText = TextoCompleto.Split('+');
+                Calculo.numero1 = Convert.ToSingle(ArreText[0]);
+                Calculo.numero2 = Convert.ToSingle(ArreText[1]);
+                TB.Text = Calculo.Suma().ToString();
+            }
+            else if(TB.Text.Contains('-'))
+            {
+                string[] ArreText = TextoCompleto.Split('-');
+                Calculo.numero1 = Convert.ToSingle(ArreText[0]);
+                Calculo.numero2 = Convert.ToSingle(ArreText[1]);
+                TB.Text = Calculo.Resta().ToString();
+            }
+            else if (TB.Text.Contains('*'))
+            {
+                string[] ArreText = TextoCompleto.Split('*');
+                Calculo.numero1 = Convert.ToSingle(ArreText[0]);
+                Calculo.numero2 = Convert.ToSingle(ArreText[1]);
+                TB.Text = Calculo.Multiplicacion().ToString();
+            }
+            else if(TB.Text.Contains('/'))
+            {
+                string[] ArreText = TextoCompleto.Split('/');
+                Calculo.numero1 = Convert.ToSingle(ArreText[0]);
+                Calculo.numero2 = Convert.ToSingle(ArreText[1]);
+                TB.Text = Calculo.Division().ToString();
+            }
+        }
 
         private void Clear_Click(object sender, EventArgs e)
         {
-            TB.Text = string.Empty;
+            TB.Text = "";
         }
     }
 }
