@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0kRJfklxdFup1SF7hdduOvhFWPVFo3bdfHlXaCswui7GzhDVlM8ggSLarLKrTRzNa2hjUcXVklZsk8PNJigCug==",
+  "dgSpecHash": "NzcAo4gw1oxDLP2JpgfFKIbgtIYM9hhQJ2g3YSQYEsxJGSzIP/NnqLyIbkP8J1bidQQi4KoqXKPb6yxetnd4cQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ridex\\Documents\\GitHub\\tpn7-Chicabytes\\Calculadora\\Calculadora\\Calculadora.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Ridex\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\giuli\\source\\repos\\TallerDeLenguajes1\\tpn7-Chicabytes\\Calculadora\\Calculadora\\Calculadora.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

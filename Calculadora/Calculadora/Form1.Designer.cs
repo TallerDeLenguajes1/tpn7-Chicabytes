@@ -54,6 +54,7 @@
             this.TB.Name = "TB";
             this.TB.Size = new System.Drawing.Size(114, 23);
             this.TB.TabIndex = 0;
+            this.TB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TB_KeyPress);
             // 
             // Clear
             // 
